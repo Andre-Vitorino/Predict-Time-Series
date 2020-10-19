@@ -1,5 +1,6 @@
 Rossmann stores sales prediction
 
+![rossman_project]('/rossmann-pictures/rossmann.jpg')
 
 The dataset
 Rossmann Store Sales dataset from Kaggle. I'll leave you to check the dataset.
