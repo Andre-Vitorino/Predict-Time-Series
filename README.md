@@ -1,6 +1,6 @@
 Rossmann stores sales prediction
 
-![rossman](/rossmman-pictures/box_plot.png)
+![rossman](/rossmman-pictures/rossmann.jpg)
 
 The dataset
 Rossmann Store Sales dataset from Kaggle. I'll leave you to check the dataset.
