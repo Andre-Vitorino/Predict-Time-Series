@@ -2,40 +2,43 @@ Rossmann stores sales prediction
 
 ![rossman](/rossmman-pictures/rossmann.jpg)
 
-# The dataset
-The dataset has taken from [this kaggle competition](https://www.kaggle.com/c/rossmann-store-sales/data?select=store.csv)
+# Dataset
+The dataset has taken from [this kaggle competition.](https://www.kaggle.com/c/rossmann-store-sales/data?select=store.csv)
 
-This project was developed using the methodCRISP-DS (CRoss-Industry Process - Data Science), a very interesting and iterable approach for Data Science projects which enable us, in each iteration, to:
+# Project Method
+This project was developed using the method CRISP-DS (CRoss-Industry Process - Data Science), a very interesting and iterable approach for Data Science projects which enable us, in each iteration, to:
 
 Deliver an end-to-end version of the solution.
 Have a faster value delivery.
 Map all the possible problems thay we may find during the project development.
-1.0 The context
+
+# 1.0 Context
 In a quarterly report meeting at Rossmann, the directors board identified an increase in competitors stores openings.
 
 In order to prevent the competitors from taking part of the market share, the C-Level board decided to conduct an on-site survey with all customers who were shopping at the stores to understand the following points:
 
-Why did the customer preferred to buy from Rossmann and not from the competition?
-From 0 to 10, how satisfied was the customer with the Rossmann store's products and service? Why? (CSAT)
-Why were there certain products that the customer preferred to buy from the competition and not from Rossmann?
-What were, in the customers opinions, the three strengths and three weaknesses from Rossmann’s stores? Why?
-From 0 to 10, how much would the customer recommend Rossmann to a friend or family member? Why? (NPS)
+⋅⋅* Why did the customer preferred to buy from Rossmann and not from the competition?
+⋅⋅* From 0 to 10, how satisfied was the customer with the Rossmann store's products and service? Why? (CSAT)
+⋅⋅* Why were there certain products that the customer preferred to buy from the competition and not from Rossmann?
+⋅⋅* What were, in the customers opinions, the three strengths and three weaknesses from Rossmann’s stores? Why?
+⋅⋅* From 0 to 10, how much would the customer recommend Rossmann to a friend or family member? Why? (NPS)
 After the customer survey, the following insights were identified:
 
-Customers preferred to buy from the competition because the service was better.
-Customers bought the same product from the competition because it offered better prices.
-Customers preferred to go to the competition’s store because the physical environment were more pleasant and some even had a cafeteria chain inside them.
+⋅⋅* Customers preferred to buy from the competition because the service was better.
+⋅⋅* Customers bought the same product from the competition because it offered better prices.
+⋅⋅* Customers preferred to go to the competition’s store because the physical environment were more pleasant and some even had a cafeteria chain inside them.
 Key points:
 
-Understand the context.
-Spot the root cause of the problem.
-Identify the project sponsor.
-Outline the solution's key points:
-Granularity
-The problem type
-Elegible methods to solve the problem
-How it'll be delivered
-2.0 The problem
+⋅⋅* Understand the context.
+⋅⋅* Spot the root cause of the problem.
+⋅⋅* Identify the project sponsor.
+⋅⋅* Outline the solution's key points:
+⋅⋅* ⋅⋅* Granularity
+⋅⋅* ⋅⋅* The problem type
+⋅⋅* ⋅⋅* Elegible methods to solve the problem
+⋅⋅* ⋅⋅* How it'll be delivered
+
+# 2.0 The problem
 Based on the research insights, initiatives have been outlined such as:
 
 Redesign the entire training program for store managers and attendants.
