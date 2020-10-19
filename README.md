@@ -21,22 +21,24 @@ In order to prevent the competitors from taking part of the market share, the C-
 * From 0 to 10, how satisfied was the customer with the Rossmann store's products and service? Why? (CSAT)
 * Why were there certain products that the customer preferred to buy from the competition and not from Rossmann?
 * What were, in the customers opinions, the three strengths and three weaknesses from Rossmann’s stores? Why?
-* From 0 to 10, how much would the customer recommend Rossmann to a friend or family member? Why? (NPS)
+* From 0 to 10, how much would the customer recommend Rossmann to a friend or family member? Why?(NPS)
+
 After the customer survey, the following insights were identified:
 
 * Customers preferred to buy from the competition because the service was better.
 * Customers bought the same product from the competition because it offered better prices.
 * Customers preferred to go to the competition’s store because the physical environment were more pleasant and some even had a cafeteria chain inside them.
+
 Key points:
 
 * Understand the context.
 * Spot the root cause of the problem.
 * Identify the project sponsor.
 * Outline the solution's key points:
-... Granularity
-... The problem type
-... Elegible methods to solve the problem
-... How it'll be delivered
+** Granularity
+** The problem type
+** Elegible methods to solve the problem
+** How it'll be delivered
 
 # 2.0 The problem
 Based on the research insights, initiatives have been outlined such as:
