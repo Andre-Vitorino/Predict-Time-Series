@@ -35,11 +35,11 @@ Key points:
 * Spot the root cause of the problem.
 * Identify the project sponsor.
 * Outline the solution's key points:
-
-⋅⋅⋅Granularity⋅⋅
-⋅⋅⋅The problem type⋅⋅
-⋅⋅⋅Elegible methods to solve the problem⋅⋅
-⋅⋅⋅How it'll be delivered⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+Granularity
+The problem type
+Elegible methods to solve the problem
+How it'll be delivered
 
 # 2.0 The problem
 Based on the research insights, initiatives have been outlined such as:
