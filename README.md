@@ -2,8 +2,8 @@ Rossmann stores sales prediction
 
 ![rossman](/rossmman-pictures/rossmann.jpg)
 
-The dataset
-Rossmann Store Sales dataset from Kaggle. I'll leave you to check the dataset.
+# The dataset
+The dataset has taken from [this kaggle competition](https://www.kaggle.com/c/rossmann-store-sales/data?select=store.csv)
 
 This project was developed using the methodCRISP-DS (CRoss-Industry Process - Data Science), a very interesting and iterable approach for Data Science projects which enable us, in each iteration, to:
 
