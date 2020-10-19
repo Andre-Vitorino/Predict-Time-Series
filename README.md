@@ -8,9 +8,9 @@ The dataset has taken from [this kaggle competition.](https://www.kaggle.com/c/r
 # Project Method
 This project was developed using the method CRISP-DS (CRoss-Industry Process - Data Science), a very interesting and iterable approach for Data Science projects which enable us, in each iteration, to:
 
-Deliver an end-to-end version of the solution.
-Have a faster value delivery.
-Map all the possible problems thay we may find during the project development.
+* Deliver an end-to-end version of the solution.
+* Have a faster value delivery.
+* Map all the possible problems thay we may find during the project development.
 
 # 1.0 Context
 In a quarterly report meeting at Rossmann, the directors board identified an increase in competitors stores openings.
