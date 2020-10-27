@@ -1,6 +1,6 @@
 # Rossmann stores sales prediction
 
-![rossman](/rossmman-pictures/rossmann.jpg)
+![rossmann](/rossmman-pictures/rossmann.jpg)
 
 
 
@@ -75,11 +75,11 @@ The delivered solution was a Telegram bot.
 
 The user just needed to send the store number and the bot would answer the predicted **total sales that the store would made by the end of the next six weeks**.
 
-![](img/rossman-gif7b.gif)
+![rossmann](/rossmman-pictures/rossmann-bot.jpeg)
 
 
 # Architecture
-![](img/rossman-api.jpg)
+![rossmann](rossmann-pictures/rossman-api.jpg)
 
 
 <br>
@@ -104,11 +104,11 @@ The user just needed to send the store number and the bot would answer the predi
 - Summary statistics:
   - Get the **min, max, range, mean, median, standar deviation, skewness and kurtosis** values of the data for each numerical variable.
   
-  ![](img/descriptive_analysis.png)
+  ![rossmann](rossmann-pictures/descriptive_analysis.png)
   
   - Plot box plot for categorical variables (`state_holiday`, `store_type` and `assortment` in relation to `sales`).
   
-  ![](img/box_plot.png)
+  ![rossmann](/rossmman-pictures/box_plot.png)
 
 
 ### Feature Engineering  
@@ -116,7 +116,7 @@ The user just needed to send the store number and the bot would answer the predi
 
 #### Descriptive analysis
 
-![](img/descriptive_analysis.png)
+![rossmann](/rossmman-pictures/descriptive_analysis.png)
 
 Key points:
 - The **mean sales** value is around **US$ 5,773.82**. 
@@ -141,7 +141,7 @@ Key points:
 #### Hypothesis Map
 We outlined this map to help us to decide which variables we need in order to validate the hypotheses.
 
-![](img/hypothesis_map.png)
+![rossmann](/rossmman-pictures/hypothesis_map.png)
 
 <br>
 
@@ -149,14 +149,14 @@ We outlined this map to help us to decide which variables we need in order to va
 
 #### Univariate Analysis
 
-![](img/target_variable_distrib.png)
+![rossmann](/rossmman-pictures/target_variable_distrib.png)
 
 As we can observe, the majority of sales lies around US$ 5,700.
 
 In addition, the distribution is **moderately skewed** (`skewness = 0.641460`) and presents a **positive kurtosis** (`1.778375`) which means that we have some possible outliers in our dataset. Thus, the distribution **does not follow a normal distribution**.
 
 ##### Numerical variables
-![](img/numerical_variables_hist.png)
+![rossmann](/rossmman-pictures/numerical_variables_hist.png)
 
 Analyzing the histograms, for:
 - `competition_distance`: we have more competitors that are near the stores, as they gather in the range from 0 to near 50000. 
@@ -194,7 +194,7 @@ Analyzing the histograms, for:
 <br>
 
 ####  Categorical variable
-![](img/categorical_variables.png)
+![rossmann](/rossmman-pictures/categorical_variables.png)
 
 Analyzing the plots, we can see that:
 - Although there are many more open stores on Easter holiday, the volume of sales is larger on Christmas. This might be due to Christmas promotion sales that stores have by the end of the year.
@@ -209,7 +209,7 @@ Analyzing the plots, we can see that:
 
 **H2. Stores with nearer competitors should have lesser sales.**
 
-![](img/sales_distance_comp_grid.png)
+![rossmann](/rossmman-pictures/sales_distance_comp_grid.png)
 
 As we can observe from the bar plot, **stores with nearer competitors have higher sales**. In addition, we can observe from the scatter plot that we have a higher concentration of sales as we decrease the competition distance.
 
@@ -225,7 +225,7 @@ As observed in the results, the Pearson's correlation coefficient between `compe
 
 As there is a lot of data, we divided the dataset in two periods: regular promotion and extended promotion.
 
-![](img/sales_store_promo_grid.png)
+![rossmann](/rossmman-pictures/sales_store_promo_grid.png)
 
 As we can observe in the **Total sales x Weeks in extended promotion**, there's a period in which the extended promotion results in more sales, then after a period of time, the total sales starts to decrease.
 
@@ -243,7 +243,7 @@ In addition, from the **Correlation Heatmap** we got a coefficient of `-0.029` w
 
 **H6. Stores with higher consecutive promotions should have higher sales.**
 
-![](img/sales_yw_consecutive_promo.png)
+![rossmann](/rossmman-pictures/sales_yw_consecutive_promo.png)
 
 Observing the results it seems that **stores with higher consecutive promotions don't have higher sales**. 
 
@@ -253,7 +253,7 @@ Observing the results it seems that **stores with higher consecutive promotions 
 
 **H9. Stores should have higher sales on the second semester of the year.**
 
-![](img/sales_month_grid.png)
+![rossmann](/rossmman-pictures/sales_month_grid.png)
 
 As observed in the previous results, stores **don't have higher sales on the second semester of the year**. In addition, by observing the Pearson correlation coefficient of `-0.75`, we can verify that there is a **strong negative correlation** between `month` and `sales`. 
 
@@ -283,7 +283,7 @@ I also outlined other hypotheses, but the previous presented ones were the most 
 
 ### Multivariate Analysis
 
-![](img/numerical_att_corr.png)
+![rossmann](/rossmman-pictures/numerical_att_corr.png)
 
 As observed in the matrix above:
 
@@ -304,7 +304,7 @@ To make the correlation between two categorical variables, we'll use the [Cramé
 
 Please, refer to the notebook to check the calculations.
 
-![](img/categorical_att_corr.png)
+![rossmann](/rossmman-pictures/categorical_att_corr.png)
 
 As observed in the results, the correlation coefficient between `store_type` and `assortment` is `0.54` which is a medium correlation and makes sense, as the bigger the store, the higher is the assortment of its products.
 
@@ -335,7 +335,7 @@ For more info about **Scale, Standardize or Normalize with scikit-learn**, pleas
 .1 Normalization
 We need to check the variables distributions. 
 
-![](img/numerical_variables_hist.png)
+![rossmann](/rossmman-pictures/numerical_variables_hist.png)
 
 As we can observe, there is no variable presenting a normal distribution, note even nearly normal. So, it is preferred to leave as it is than to risk a erroneous normalization.
 
@@ -345,7 +345,7 @@ As we can observe, there is no variable presenting a normal distribution, note e
 ### Rescaling
 ####  Rescaling `competition_distance`
 
-![](img/comp_dist_boxplot.png)
+![rossmann](/rossmman-pictures/comp_dist_boxplot.png)
 
 As observed in the results, there is a clear presence of outliers.
 
@@ -353,13 +353,13 @@ As observed in the results, there is a clear presence of outliers.
 
 Here, I used the [sklearn.preprocessing.RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html?highlight=robustscaler#sklearn.preprocessing.RobustScaler) because of the presence of strong outliers.
 
-![](img/comp_dist_table.png)
+![rossmann](/rossmman-pictures/comp_dist_table.png)
 
 <br>
 
 #### Rescaling `competition_time_month`
 
-![](img/522_comp_time_month_boxplot.png)
+![rossmann](/rossmman-pictures/522_comp_time_month_boxplot.png)
 
 As observed in the results, there is a clear presence of outliers.
 
@@ -367,11 +367,11 @@ As observed in the results, there is a clear presence of outliers.
 
 Here, I used the [sklearn.preprocessing.RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html?highlight=robustscaler#sklearn.preprocessing.RobustScaler) because of the presence of strong outliers.
 
-![](img/comp_time_month_table.png)
+![rossmann](/rossmman-pictures/comp_time_month_table.png)
 
 Rescaling `promo_time_week`
 
-![](img/promo_time_week_boxplot.png)
+![rossmann](/rossmman-pictures/promo_time_week_boxplot.png)
 
 As observed in the results, there is a clear presence of outliers.
 
@@ -379,7 +379,7 @@ As observed in the results, there is a clear presence of outliers.
 
 Here, I used the [sklearn.preprocessing.MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html?highlight=sklearn%20preprocessing%20minmaxscaler) despite the presence of outliers, they are not that far from the superior whisker. So we can take a chance to use the Min-Max Scaler.
 
-![](img/promo_time_week_table.png)
+![rossmann](/rossmman-pictures/promo_time_week_table.png)
 
 
 <br>
@@ -388,28 +388,28 @@ Here, I used the [sklearn.preprocessing.MinMaxScaler](https://scikit-learn.org/s
 ####  Encoding
 ##### One Hot Encoding for `state_holiday`
 
-![](img/one_hot_state_holiday.png)
+![rossmann](/rossmman-pictures/one_hot_state_holiday.png)
 
 
 #####  Label Encoding for `store_type`
 
-![](img/label_state_holiday.png)
+![rossmann](/rossmman-pictures/label_state_holiday.png)
 
 
 ##### Label Encoding for `assortment`
 
-![](img/label_assortment.png)
+![rossmann](/rossmman-pictures/label_assortment.png)
 
 
 #### Target Variable Transformation
 In this section, I applied the logarithm transformation to the `sales` target variable.
 
-![](img/target_var_transf.png)
+![rossmann](/rossmman-pictures/target_var_transf.png)
 
 
 #### Nature Transformation
 
-![](img/nature_transf.png)
+![rossmann](/rossmman-pictures/nature_transf.png)
 
 ### Feature selection
 feature selection is important and how to select the most relevant features for ou ML model through the usage of algorithms.
@@ -431,7 +431,7 @@ https://en.wikipedia.org/wiki/Occam%27s_razor
 - There are basically 3 methods for feature selection:
   1. **Filter Methods:** takes advantage of the correlation between variables and its types (numerical and categorical).
 
-  ![](img/6_filter_methods.png)
+  ![rossmann](/rossmman-pictures/6_filter_methods.png)
 
   2. **Embedded Methods:** takes advantage of algorithms, such as: Random Forest, Lasso Regression and Ridge Regression.
   
@@ -515,7 +515,7 @@ In this first comparison, before Cross Validation, we divided our dataset in two
 
 These were the results:
 
-![](img/1_comparing_models_performance.png)
+![rossmann](/rossmman-pictures/1_comparing_models_performance.png)
 
  As observed in the results, the **Random Forest Regressor** had the least RMSE (`1010.322344`). However, this doesn't mean that the Random Forest is the final model that we're going to pick for our predictions, because we need to make **cross validation tests** for each model to check their behavior in different data and then pick the right model.
 
@@ -524,11 +524,11 @@ These were the results:
 #### Cross validation and comparing models' performance
 As the model i was developing is a Time Series model, i've  need to divide our dataset respecting the time. So for each iteration (`KFold`) of the cross validation, we're getting a different parts of ou dataset based on the records dates.
 
-![](/img/Cross_Validation.png)
+![rossmann](/rossmman-pictures/Cross_Validation.png)
 
 These were the results:
 
-![](img/72_comparing_models_performance_cv.png)
+![rossmann](/rossmman-pictures/72_comparing_models_performance_cv.png)
 
  As observed in the results, the Random Forest Regressor had the least RMSE (`1256.17 +- 319.33`). However, in this project, we're going to go with fine tuning the **XGBoost Regressor** to check the results.
 
@@ -544,7 +544,7 @@ Advantages and disadvantages of each strategy
 | Bayesian Search | Defines the values for the hyperparameters based on past learning. | High complexity to learn how to implement it. |
 
 #### After tuning the model:
-![](img/hyperparamenter_results.png)
+![rossmann](/rossmman-pictures/hyperparamenter_results.png)
 
 As we can see, there was a great improvement compared to the previous results.
 
@@ -559,7 +559,7 @@ As we can see, the there was a great improvement compared to the previous result
 
 ### Business Performance
 
-![](img/challenging_stores.png)
+![rossmann](/rossmman-pictures/challenging_stores.png)
 
 As we can observe in the sample above, we have both **best and worst scenarios** for the total sales, so we can have a range in which we can base the budget estimations.
 
@@ -586,7 +586,7 @@ Characteristics of each error metric
 **MAPE x error**
 
 
-![](img/store_analysis.png)
+![rossmann](/rossmman-pictures/store_analysis.png)
 
 There are stores that are more difficult to make the predictions (circled in red). Thus, some strategies that may solve this challenge in the next project iteration could be:
 
@@ -597,7 +597,7 @@ There are stores that are more difficult to make the predictions (circled in red
 
 ### 3.1.5 Machine Learning Performance
 
-![](img/ml_performance.png)
+![rossmann](/rossmman-pictures/ml_performance.png)
 
 Observing the results, we can see that:
 - By observing the **first and second line plots**, we can see that the predictions or our model is pretty close to the real value for `sales`. On the other hand, the error rate has some variance.
@@ -631,7 +631,7 @@ To get more info about the **Telegram's bot API**, please visit https://core.tel
 <br>
 
 # Architecture
-![](img/rossman-api.jpg)
+![rossmann](/rossmman-pictures/rossman-api.jpg)
 
 ### 10.3 Prediction in action
 As the commands in Telegram bot starts with '`/`', we need to include it in the message sent to the bot. Example: "`/42`" (which is telling the bot to send us the predictions for the store whose `store_id` is `42`). 
