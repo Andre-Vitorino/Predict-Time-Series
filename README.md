@@ -75,11 +75,11 @@ The delivered solution was a Telegram bot.
 
 The user just needed to send the store number and the bot would answer the predicted **total sales that the store would made by the end of the next six weeks**.
 
-![rossmann](/rossmman-pictures/rossmann-bot.jpeg)
+![rossmann](/rossmman-pictures/rossman-bot.jpeg)
 
 
 # Architecture
-![rossmann](rossmann-pictures/rossman-api.jpg)
+![rossmann](rossmman-pictures/rossman-api.jpg)
 
 
 <br>
@@ -104,7 +104,7 @@ The user just needed to send the store number and the bot would answer the predi
 - Summary statistics:
   - Get the **min, max, range, mean, median, standar deviation, skewness and kurtosis** values of the data for each numerical variable.
   
-  ![rossmann](rossmann-pictures/descriptive_analysis.png)
+  ![rossmann](rossmman-pictures/descriptive_analysis.png)
   
   - Plot box plot for categorical variables (`state_holiday`, `store_type` and `assortment` in relation to `sales`).
   
