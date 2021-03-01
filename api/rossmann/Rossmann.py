@@ -8,11 +8,11 @@ import numpy as np
 
 class Rossmann(object):
     def __init__(self):
-        self.competition_distance_scaler   = pickle.load(open('/home/andre/repos/Predict-Time-Series-Test/parameter/competition_distance_scaler.pkl', 'rb'))
-        self.competition_time_month_scaler = pickle.load(open('/home/andre/repos/Predict-Time-Series-Test/parameter/competition_time_month_scaler.pkl', 'rb'))
-        self.promo_time_week_scaler        = pickle.load(open('/home/andre/repos/Predict-Time-Series-Test/parameter/promo_time_week_scaler.pkl', 'rb'))
-        self.year_scaler                   =  pickle.load(open('/home/andre/repos/Predict-Time-Series-Test/parameter/year_scaler.pkl', 'rb'))
-        self.store_type_scaler             = pickle.load(open('/home/andre/repos/Predict-Time-Series-Test/parameter/store_type_scaler.pkl', 'rb'))
+        self.competition_distance_scaler   = pickle.load(open('/home/andre/Documents/projects/rossmann/parameter/competition_distance_scaler.pkl', 'rb'))
+        self.competition_time_month_scaler = pickle.load(open('/home/andre/Documents/projects/rossmann/parameter/competition_time_month_scaler.pkl', 'rb'))
+        self.promo_time_week_scaler        = pickle.load(open('/home/andre/Documents/projects/rossmann/parameter/promo_time_week_scaler.pkl', 'rb'))
+        self.year_scaler                   =  pickle.load(open('/home/andre/Documents/projects/rossmann/parameter/year_scaler.pkl', 'rb'))
+        self.store_type_scaler             = pickle.load(open('/home/andre/Documents/projects/rossmann/parameter/store_type_scaler.pkl', 'rb'))
 
     
     def data_cleaning(self, df1):

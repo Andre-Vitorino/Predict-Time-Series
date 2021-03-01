@@ -4,7 +4,7 @@ from rossmann.Rossmann import Rossmann
 import pickle
 
 #  carregando modelo 
-model = pickle.load(open('/home/andre/repos/Predict-Time-Series-Test/model/model_rossmann.pkl', 'rb'))
+model = pickle.load(open('/home/andre/Documents/projects/rossmann/model/model_rossmann.pkl', 'rb'))
 
 app = Flask(__name__)
 
